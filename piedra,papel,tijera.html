@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tijera</title>
+    <LINK REL=StyleSheet HREF="piedra,papel,tijera.css" TYPE="text/css" MEDIA=screen>
+    </head>
+<body>
+    <header><h1>PIEDRA, PAPEL, TIJERA</h1></header>
+    <div class="page">
+        <section class="container">
+            <article>
+                <h3>Jugador</h3>
+                <div id="jugador">
+
+                </div>
+                <div id="ganadosJugador">
+
+                </div>
+            </article>
+        </section>
+        <section class="container">
+            <article>
+                <p style="text-align: center;">(Pulse un botón)</p>
+                <input id="botonPiedra"  type="button" value="Piedra" onclick="piedra()"><br>
+                <input id="botonPapel"  type="button" value="Papel" onclick="papel()"><br>
+                <input id="botonTijera"  type="button" value="Tijera" onclick="tijera()"><br>
+            </article>
+        </section>
+        <aside>
+            <h3>Máquina</h3>
+            <div id="maquina">
+                
+            </div>
+            <div id="ganadosMaquina">
+                    
+            </div>
+        </aside>
+    </div>
+    <div style="text-align: center;"><p id="marcador" class="marcador"></p></div>
+    <p id="ganador"></p>
+    <div style="text-align: center;">
+        <a href="piedra,papel,tijera.html"><button>Reiniciar</button></a>
+    </div>
+    <footer>
+        <p>&copy; Mario Lopez Ruiz</p>
+    </footer>
+    <script src="piedra,papel,tijera.js"></script>
+</body>
+</html>
